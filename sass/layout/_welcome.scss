@@ -1,0 +1,10 @@
+#welcome {
+    background-color: $color-primary-dark;
+}
+
+.welcome {
+    &__text-box {
+        padding: 0 10rem;
+    }
+}
+

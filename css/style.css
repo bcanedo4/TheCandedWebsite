@@ -59,19 +59,24 @@ body {
     animation-duration: 2s;
     animation-timing-function: ease-out; }
 
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  display: inline-block;
+  color: #fff;
+  letter-spacing: .2rem;
+  transition: all .2s; }
+
+.paragraph {
+  font-size: 1.6rem; }
+
 .composition {
   position: relative; }
   .composition__photo {
-    width: 55%;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-    border-radius: 2px;
-    position: absolute;
-    z-index: 10;
-    transition: all .2s;
-    outline-offset: 2rem; }
+    width: 100%; }
 
 .row {
-  max-width: 114rem;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
@@ -81,10 +86,10 @@ body {
     clear: both; }
   .row [class^="col-"] {
     float: left; }
-    .row [class^="col-"]:not(:last-child) {
-      margin-right: 6rem; }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
+  .row .col-1-of-2--ng {
+    width: calc(100% / 2); }
   .row .col-1-of-3 {
     width: calc((100% - 2 * 6rem) / 3); }
   .row .col-2-of-3 {
@@ -109,3 +114,12 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     /* centers button as it is text */ }
+
+#welcome {
+  background-color: #0D252D; }
+
+.welcome__text-box {
+  padding: 0 10rem; }
+
+.section-welcome {
+  padding: 15rem 0; }

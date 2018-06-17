@@ -1,5 +1,5 @@
 .row {
-    max-width: $grid-width;
+    // max-width: $grid-width;
     margin: 0 auto;
 
     &:not(:last-child) {
@@ -11,14 +11,18 @@
     [class^="col-"] {
         float: left;
 
-        &:not(:last-child) {
-            margin-right: $gutter-horizontal;   
-        }   
+        // &:not(:last-child) {
+        //     margin-right: $gutter-horizontal;   
+        // }   
     }
 
     .col-1-of-2 {
         width: calc((100% - #{$gutter-horizontal}) / 2);
-        
+    }
+
+    // no gutter
+    .col-1-of-2--ng {
+        width: calc(100% / 2);
     }
 
     .col-1-of-3 {
@@ -41,4 +45,6 @@
         width: calc(3 * ((100% - 3 * #{$gutter-horizontal}) / 4) + 2 * #{$gutter-horizontal});
     }
 
+    // remvoes gutter
+    // .gutter-horizontal-none { margin-right: -6rem; }
 }

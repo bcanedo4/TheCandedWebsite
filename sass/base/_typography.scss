@@ -36,3 +36,17 @@ body {
         
     }
 }
+
+.heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: inline-block;
+    color: #fff;
+    letter-spacing: .2rem;
+    transition: all .2s;
+}
+
+.paragraph {
+    font-size: $default-font-size;
+}
