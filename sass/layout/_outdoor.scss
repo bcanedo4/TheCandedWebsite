@@ -1,0 +1,11 @@
+.section-outdoor {
+    padding: 15rem 0;
+}
+
+.outdoor {
+    &__text-box {
+        padding: 0 10rem;
+        color: $color-primary-light;
+    }
+}
+
