@@ -1,3 +1,17 @@
 .section-welcome {
+    background-color: $color-primary-dark;
+    padding: 15rem 0;
+}
+
+.section-food {
+    background-color: $color-blue-dark-1;
+    padding: 15rem 0;
+
+    .row {
+        max-width: $grid-width;
+    }
+}
+
+.section-outdoor {
     padding: 15rem 0;
 }
