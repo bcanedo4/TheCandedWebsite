@@ -44,7 +44,7 @@ body {
   margin-bottom: 6rem; }
   .heading-primary--main {
     display: block;
-    font-size: 4rem;
+    font-size: 7rem;
     font-weight: 400;
     letter-spacing: .5rem;
     animation-name: moveInTop;
@@ -52,7 +52,7 @@ body {
     animation-timing-function: ease-out; }
   .heading-primary--sub {
     display: block;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
     letter-spacing: .75rem;
     animation-name: moveInBottom;
@@ -94,23 +94,32 @@ body {
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
-    .card__side--front {
+    .card__side--front-1 {
       background-image: linear-gradient(to right bottom, #FFFA00, #FF9D00); }
-      .card__side--front-2 {
-        background-image: linear-gradient(to right bottom, #73FF91, #45D75D); }
+    .card__side--front-2 {
+      background-image: linear-gradient(to right bottom, #73FF91, #45D75D); }
+    .card__side--front-3 {
+      background-image: linear-gradient(to right bottom, #D0AB7F, #B28451); }
     .card__side--back {
       transform: rotateY(180deg); }
       .card__side--back-1 {
         background-image: linear-gradient(to right bottom, #FF9D00, #FFFA00); }
       .card__side--back-2 {
         background-image: linear-gradient(to right bottom, #45D75D, #73FF91); }
+      .card__side--back-3 {
+        background-image: linear-gradient(to right bottom, #D0AB7F, #B28451); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
-    color: #0091ff;
     top: 0; }
+    .card__heading-span-1 {
+      color: #0091ff; }
+    .card__heading-span-2 {
+      color: #4C3F2F; }
+    .card__heading-span-3 {
+      color: #fff; }
   .card__details--1 {
     width: 100%;
     padding: 3rem;
@@ -146,9 +155,9 @@ body {
         font-size: 1.75rem;
         font-weight: 700;
         padding: 1rem;
-        color: #c69963; }
+        color: #4C3F2F; }
         .card__details--2 ul li:not(:last-child) {
-          border-bottom: 1px solid #c69963; }
+          border-bottom: 1px solid #4C3F2F; }
   .card__details--3 {
     width: 100%;
     padding: 3rem;
@@ -165,9 +174,9 @@ body {
         font-size: 1.75rem;
         font-weight: 700;
         padding: 1rem;
-        color: #0091ff; }
+        color: #fff; }
         .card__details--3 ul li:not(:last-child) {
-          border-bottom: 1px solid #0091ff; }
+          border-bottom: 1px solid #fff; }
   .card__cta {
     position: absolute;
     top: 50%;
@@ -177,8 +186,13 @@ body {
     text-align: center; }
   .card__price-box {
     text-align: center;
-    color: #0091ff;
     margin-bottom: 8rem; }
+    .card__price-box-1 {
+      color: #0091ff; }
+    .card__price-box-2 {
+      color: #4C3F2F; }
+    .card__price-box-3 {
+      color: #fff; }
   .card__price-only {
     font-size: 1.8rem;
     text-transform: uppercase; }

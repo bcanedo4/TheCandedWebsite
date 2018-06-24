@@ -18,9 +18,9 @@
         box-shadow: 0 1.5rem 4rem rgba(#000, .15);
     
         &--front {
-            background-image: linear-gradient(to right bottom, $color-yellow-light-1, $color-orange-light-1);            
 
             &-1 {
+                background-image: linear-gradient(to right bottom, $color-yellow-light-1, $color-orange-light-1);                        
             }
 
             &-2 {
@@ -28,7 +28,7 @@
             }
 
             &-3 {
-
+                background-image: linear-gradient(to right bottom, $color-brown, $color-brown-dark);
             }
         }
     
@@ -44,7 +44,7 @@
             }
 
             &-3 {
-
+                background-image: linear-gradient(to right bottom, $color-brown, $color-brown-dark);
             }
         }
     }
@@ -54,8 +54,22 @@
         font-weight: 300;
         text-transform: uppercase;
         text-align: center;
-        color: $color-tertiary-light;
         top: 0;
+
+        &-span {
+
+            &-1 {
+                color: $color-tertiary-light;
+            }
+
+            &-2 {
+                color: $color-brown-dark-2;
+            }
+
+            &-3 {
+                color: #fff;
+            }
+        }
         
     }
 
@@ -106,10 +120,10 @@
                     font-size: 1.75rem;
                     font-weight: 700;
                     padding: 1rem;
-                    color: $color-brown;
+                    color: $color-brown-dark-2;
 
                     &:not(:last-child) {
-                        border-bottom: 1px solid $color-brown;
+                        border-bottom: 1px solid $color-brown-dark-2;
                     }
                 }
             }
@@ -134,10 +148,10 @@
                     font-size: 1.75rem;
                     font-weight: 700;
                     padding: 1rem;
-                    color: $color-tertiary-light;
+                    color: #fff;
 
                     &:not(:last-child) {
-                        border-bottom: 1px solid $color-tertiary-light;
+                        border-bottom: 1px solid #fff;
                     }
                 }
             }
@@ -157,8 +171,20 @@
 
     &__price-box {
         text-align: center;
-        color: $color-tertiary-light;
+        // color: $color-tertiary-light;
         margin-bottom: 8rem;
+
+        &-1 {
+            color: $color-tertiary-light;
+        }
+
+        &-2 {
+            color: $color-brown-dark-2;
+        }   
+
+        &-3 {
+            color: #fff;
+        }
     }
 
     &__price-only {
